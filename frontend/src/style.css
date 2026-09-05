@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #0b0b0f;
+  --color-brand-card: #16161e;
+  --color-brand-accent: #6366f1;
+  --color-brand-border: #262636;
+}
+
+body {
+  background-color: #0b0b0f;
+  color: #f3f4f6;
+  font-family: Inter, system-ui, sans-serif;
+  margin: 0;
+}

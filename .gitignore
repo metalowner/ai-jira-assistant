@@ -1,0 +1,18 @@
+# Python (Virtual Environments)
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.pyc
+
+# Node (Frontend local packages)
+frontend/node_modules/
+frontend/dist/
+
+# Environments and Secrets
+.env
+backend/.env
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
