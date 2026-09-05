@@ -9,8 +9,10 @@ import { Sparkles } from 'lucide-vue-next'
         <Sparkles class="w-5 h-5" />
       </div>
       <div>
-        <h1 class="font-bold text-lg leading-tight">AI Jira Assistant</h1>
-        <p class="text-xs text-gray-400">Technical PM Automation Tool</p>
+        <h1 class="text-xl font-semibold text-slate-900 tracking-tight leading-tight">
+          AI Jira Assistant
+        </h1>
+        <p class="text-xs text-slate-500">Technical PM Automation Tool</p>
       </div>
     </div>
     <div class="text-xs px-3 py-1 bg-green-500/10 text-green-400 rounded-full border border-green-500/20 flex items-center gap-1.5">

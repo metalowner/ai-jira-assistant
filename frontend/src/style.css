@@ -1,15 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-bg: #0b0b0f;
-  --color-brand-card: #16161e;
-  --color-brand-accent: #6366f1;
-  --color-brand-border: #262636;
+  /* Новая благородная светлая палитра в стиле минимализма */
+  --color-brand-bg: #f8fafc;     /* Мягкий светло-серый фон (Slate 50) */
+  --color-brand-card: #ffffff;   /* Чистый белый цвет для панелей и карточек */
+  --color-brand-accent: #4f46e5; /* Насыщенный индиго для акцентов и кнопок */
+  --color-brand-border: #e2e8f0; /* Легкая серая граница (Slate 200) */
 }
 
 body {
-  background-color: #0b0b0f;
-  color: #f3f4f6;
+  background-color: #f8fafc;
+  color: #0f172a; /* Темно-синий текст (Slate 900) для идеальной читаемости */
   font-family: Inter, system-ui, sans-serif;
   margin: 0;
 }
